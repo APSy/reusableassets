@@ -1,0 +1,15 @@
+[gd_scene load_steps=2 format=3 uid="uid://bjnucnr2wfhiq"]
+
+[ext_resource type="Script" uid="uid://qibng183tr6v" path="res://FPSCounter/fps_counter.gd" id="1_xd68a"]
+
+[node name="FPSCounter" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="FPSCounterLabel" type="Label" parent="."]
+layout_mode = 1
+offset_right = 105.0
+offset_bottom = 23.0
+script = ExtResource("1_xd68a")
